@@ -75,7 +75,8 @@ nav span {
 }
 .language {
     display: inline;
-    margin: 3px;
+    margin: 0 4px;
+    color: #b0b0b0;
 }
 .col-list {
     margin-bottom: 1rem;
