@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Innonic site</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/carousel.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>     
+      <div class="container container-header">
+        <img class="logo" src="assets/logo.png" alt="logo" width="150" height="70">
+        <p class="logo-name">Ízt viszünk az életedbe!</p>
+        <div class="col-list">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rólunk</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GYIK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Miért éppen tőlünk</a>
+            </li>
+            <li class="nav-item hun">
+              <a class=" language hu" href="#">HU</a>
+            </li>
+            <li class="language">|</li>
+            <li>
+              <a class="language" href="#">EN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link inside" href="#"><i class="fa fa-sign-in" aria-hidden="true"> </i>  Belépek</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link inside" href="#"><i class="fa fa-lock" aria-hidden="true"> </i>  Regisztálok</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-row-reverse search">
+          <form class="form-inline mt-2 mt-md-0 navbar-expand-md text-end">
+            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+            <input class="form-control mr-sm-2" type="text" placeholder="keresés..." aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i><strong> Kosaram: </strong> 2db termék 2990 ft értékben</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- ============== menu-item  ================  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3 ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><i class="fa fa-bars" aria-hidden="true"></i></span>
+      </button>
+      <span class="info"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="container  container-menu">
+          <div class="row menu-row">
+            <ul class="navbar-nav text-md-center nav-justified w-100">
+              <li class="nav-item">
+                <a class="nav-link" href="#">húsok <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ételízesítők</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">készételek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">tejtermékek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">alapélelmiszerek</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">italok</a>
+                </li>
+            </ul>
+           </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ============== molbile-menu-item  ================  --> 
+    <div id="mySidenav" class="sidenav mobile-menu-item">
+      <a href="#" class="closebtn">&times</a>
+      <a href="#">Rólunk</a>
+      <a href="#">GYIK</a>
+      <a href="#">Miért éppen tőlünk</a>
+      <a href="#">Kapcsolat</a>
+      <a href="#">Belépek</a>
+      <a href="#">Regisztrálok</a>
+      <a href="#">Kosaram</a>
+      <input class="form-control mobile-search" type="text" placeholder="keresés..." aria-label="Search">
+    </div>
+
+    <!--                -->
+    <div id="myCarousel" class="carousel slide d-none d-md-block"  data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="assets/tablapt1.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <p><a class="btn btn-lg btn-success" href="#" role="button">kattints a választékért</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img class="second-slide" src="assets/tablapt1.png" alt="second slide">
+            <div class="container">
+              <div class="carousel-caption text-left">                
+                <p><a class="btn btn-lg btn-success" href="#" role="button">kattints a választékért</a></p>
+                </div>
+            </div>
+          </div>  
+        <div class="carousel-item">
+          <img class="third-slid" src="assets/tablapt1.png" alt="Third slide">
+          <div class="container">
+              <div class="carousel-caption text-left">               
+                <p><a class="btn btn-lg btn-success" href="#" role="button">kattints a választékért</a></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span><img src="assets/arrow-left.png"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span><img src="assets/arrow-right.png"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </div>
+    <!--                -->
+
+      <!-- ==============  three images of categories  ===============  -->
+    <div class="col-12 text-center ">
+      <h1>Legnépszerűbb kategóriák</h1>
+    </div>
+    <div class="container categories-container">
+        <div class="row categories-row">
+        <div class="categories-col">
+          <a href="#"><img src="assets/color-hatter-beef.png" alt="beef" width="340" height="430"></a>
+            <span class="head categories">húsok</span>
+            <span class="pieces">(57 termék)</span>
+        </div>
+        <div class="categories-col">
+          <a href="#"><img src="assets/color-hatter-kosar.png" alt="milk" width="340" height="430"></a>
+            <span class="head">tejtermékek</span>
+            <span class="pieces">(93 termék)</span>
+        </div> 
+        <div class="categories-col">
+          <a href="#"><img src="assets/color-hatter-drink.png" alt="milk" width="340" height="430"></a>
+            <span class="head">italok</span> 
+            <span class="pieces">(30 termék)</span> 
+        </div>
+      </div>
+    </div><!--container-->
+    <!-- ===============================  four columns of text below the offer  ===========================  -->
+    <div class="container container-offer">
+      <i class="fa fa-chevron-right offer-arrow" aria-hidden="true"></i>
+      <i class="fa fa-chevron-left offer-arrow" aria-hidden="true"></i>
+      <div class="row text-center offer-row">
+        <div class="col-12">
+            <h1>A mai ajánlataink</h1>
+          </div>
+        <div class="col-lg col-md-6 col-sm-6 offer-col">
+          <img src="assets/pottyos_szelet.png" alt="pottyos szelet" width="200" height="200">
+          <h2 class="offer-eat-name">Pöttyös túró rudi natúr</h2>
+          <p class="offer-pay">Súly: 90 g</p>
+          <p class="offer-pay">Egységár: 3990 Ft/kg</p>
+          <p class="pay">190 Ft</p>
+          <p><a class="btn btn-secondary" href="#" role="button">részletek </a></p>
+          <p><a class="btn btn-success" href="#" role="button">kosárba</a></p>
+        </div><!-- /.col-lg -->
+        <div class="col-lg col-md-6 col-sm-6 offer-col">
+          <img src="assets/medve.png" alt="medve" width="200" height="200">
+          <h2 class="offer-eat-name" >Medvesajt téliszalámis</h2>
+          <p class="offer-pay">Súly: 140 g</p>
+          <p class="offer-pay">Egységár: 3990 Ft/kg</p>
+          <p class="pay">270 Ft</p>
+          <p><a class="btn btn-secondary" href="#" role="button">részletek</a></p>
+          <p><a class="btn btn-success" href="#" role="button">kosárba</a></p>
+        </div><!-- /.col-lg -->
+        <div class="col-lg col-md-6 col-sm-6 offer-col">
+          <img src="assets/sajtkrem.png" alt="sajtkrem" width="200" height="200">
+          <h2 class="offer-eat-name">Trappista sajtkrém</h2>
+          <p class="offer-pay">Súly: 125 g</p>
+          <p class="offer-pay">Egységár: 3990 Ft/kg</p>
+          <p class="pay">190 Ft</p>
+          <p><a class="btn btn-secondary" href="#" role="button">részletek</a></p>
+          <p><a class="btn btn-success" href="#" role="button">kosárba</a></p>
+        </div><!-- /.col-lg -->
+        <div class="col-lg col-md-6 col-sm-6 offer-col">
+          <img src="assets/kremturo.png" alt="kremturo" width="200" height="200">
+          <h2 class="offer-eat-name">Krémtúró citromos</h2>
+          <p class="offer-pay">Súly: 90 g</p>
+          <p class="offer-pay">Egységár: 3990 Ft/kg</p>
+          <p class="pay">190 Ft</p>
+          <p><a class="btn btn-secondary" href="#" role="button">részletek</a></p>
+          <p><a class="btn btn-success" href="#" role="button">kosárba</a></p>
+        </div><!-- /.col-lg -->
+      </div><!--row-->
+    </div> <!--container-->
+    <!-- ============================  icon-cargo-row  ======================================= -->
+    <div class="container cargo-container">
+      <div class="row cargo-row cargo-row-first"> 
+      <div class="line"></div>  
+        <div class="media col-lg col-md-4 col-sm-4 cargo-col">
+          <img class="align-self-center" src="assets/cargo-hutve.png" alt="hűtve szállítás">
+          <div class="media-body">
+            <h5 class="mt-0">Hűtve szállítás</h5>
+            <p>Magyrországról, az ajtódig.</p>
+          </div>
+        </div>
+        <div class="media col-lg col-md-4 col-sm-4 cargo-col">
+          <img class="align-self-center" src="assets/cargo-car.png" alt="gyors szállítás">
+          <div class="media-body">
+            <h5 class="mt-0">48 órán belüli kiszállítás</h5>
+            <p>Az egész Egyesült Királyságban.</p>
+          </div>
+        </div>
+        <div class="media col-lg col-md-4 col-sm-4 cargo-col">
+          <img class="align-self-center" src="assets/cargo-box.png" alt="ingyen szállítás">
+          <div class="media-body">
+            <h5 class="mt-0">Ingyen szállítás</h5>
+            <p>70 GBP-től.</p>
+          </div>
+        </div>                  
+      </div> <!--row-->
+    </div> <!--container-->
+    <!-- =====================  four columns of the favorite  ====================  -->
+    <div class="container-fluid container-fluid-favorite">
+      <div class="container container-favorite">
+        <div class="row text-center favorite-row">
+          <div class="col-12">
+              <h1>Vásárlóink kedvencei</h1>
+            </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 favorite-col">
+            <img src="assets/plate-pottyos.png" alt="Generic placeholder image" width="220" height="220">
+            <h2 class="offer-eat-name">túró rudi</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">tovább </a></p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 favorite-col">
+            <img src="assets/plate-beef.png" alt="beef" width="220" height="220">
+            <h2 class="offer-eat-name" >debreceni kolbász</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">tovább</a></p>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-6 favorite-col">
+            <img src="assets/plate-pick.png" alt="pick" width="220" height="220">
+            <h2 class="offer-eat-name">pick téliszalámi</h2>
+            <p><a class="btn btn-secondary" href="#" role="button">tovább</a></p>
+          </div>
+          <div class="col-lg-3 col-md-6  col-sm-6 favorite-col">
+              <img src="assets/plate-sio.png" alt="sio" width="220" height="220">
+              <h2 class="offer-eat-name">sió rostos gyümölcslé</h2>
+              <p><a class="btn btn-secondary" href="#" role="button">tovább</a></p>
+          </div>
+          <img class="green-back" src="assets/zoldalap.png" alt="zoldalap">
+        </div><!--row-->
+      </div> <!--container favorite-->
+    <!-- =====================  two columns of the product-book  ====================  -->
+      <div class="container container-product">
+        <div class="col-12 text-center">
+          <h1>A nap terméke</h1>
+        </div>
+        <div class="row-product">
+          <div class="col-product">
+            <img class="bean-pict" src="assets/babfozelek.png" alt="babfozelek" width="500" height="500">
+          </div>
+          <img class="img-fluid book-pict" src="assets/book4.png" alt="book" >
+          <div class="bean-name">
+            <h3 class="product-eat-name">Babfőzelék<br/> házikolbásszal</h3>
+            <p class="pay"><del>1299 Ft</del> 1099 Ft</p>
+            <p><a class="btn btn-success" href="#" role="button">kosárba</a></p>
+            <p><a class="btn btn-secondary" href="#" role="button">részletek </a></p>                
+          </div>
+        </div>
+      </div><!--container product-->
+      <div class="container cargo-container"> <!-- cargo second -->
+        <div class="row cargo-row cargo-row-second"> 
+          <div class="media col-lg-4 col-md-4 col-sm-4 cargo-col">
+            <img class="align-self-center" src="assets/fridge.png" alt="hűtve szállítás">
+            <div class="media-body">
+              <h5 class="mt-0">Hűtve szállítás</h5>
+              <p>Magyrországról, az ajtódig.</p>
+            </div>
+          </div>
+            <div class="media col-lg-4 col-md-4 col-sm-4 cargo-col">
+              <img class="align-self-center" src="assets/cargo.png" alt="gyors szállítás">
+              <div class="media-body">
+                <h5 class="mt-0">48 órán belüli kiszállítás</h5>
+                <p>Az egész Egyesült Királyságban.</p>
+              </div>
+            </div>
+            <div class="media col-lg-4 col-md-4 col-sm-4 cargo-col">
+              <img class="align-self-center" src="assets/box.png" alt="ingyen szállítás">
+              <div class="media-body">
+                <h5 class="mt-0">Ingyen szállítás</h5>
+                <p>70 GBP-től.</p>
+              </div>
+            </div>
+          <div class="line"></div>
+        </div> <!--row-->
+      </div> <!--container cargo-->
+    </div> <!-- container fluid -->
+    <!-- ========  columns of the pack  ============  -->
+    <div class="container container-pack">
+      <div class="col-12">
+          <h1 class="text-center">Ha csomagban veszed olcsóbb</h1>
+      </div>
+      <div class="row row-pack align-items-center">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-pack-4 col-pack-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at eros felis. Phasellus orci purus, cursus ac tincidunt bibendum, lobortis et nisl. 
+            Praesent dolor arcu, sodales nec sollicitudin quis, luctus vel odio. Praesent congue eros erat, ac tempor erat vestibulum at. </p>
+            <p class="pay"><del>1299 Ft</del> 1090 Ft</p>
+            <p><a class="btn btn-success" href="#" role="button">Tovább a csomagajánlatokra</a></p>
+        </div>
+        <div class="col-lg-8 col-md-12 col-xs-12 col-pack-8">
+          <div class="row row-sio-pack">
+
+            <div class="col-sm-4 col-xs-3 col-pack-sio d-flex justify-content-around">
+              <div class="sio">
+                  <img class="" src="assets/kb1.png" alt="kajszi" width="220" height="250">
+                  <p>Sió Kajszibarack</p>
+              </div> 
+            </div>
+            <div class="col-sm-4 col-xs-3 col-pack-sio d-flex justify-content-around">
+                <div class="sio">
+                  <img class="" src="assets/al1.png" alt="kajszi" width="220" height="250">
+                  <p>Sió Alma</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-3 col-pack-sio d-flex justify-content-around">
+              <div class="sio">
+                <img class="" src="assets/vk1.png" alt="kajszi" width="220" height="250">
+                <p>Sió vilmoskörte</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========  footer ============  -->
+    <footer>
+      <div class="container conteiner-footer">
+        <div class="row row-footer">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-footer col-footer-contact">
+            <p class="contact">elérhetőség</p>   
+            <p class="phone-number"><i class="fa fa-phone-square" aria-hidden="true"></i> +36 1/23456789</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">info@hufo.hu</a></p>
+            <a class="icons" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="icons" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a class="icons" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="icons" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-footer">
+            <p class="contact">információk</p>
+            <p><a href="#"></a>Rólunk</p>
+            <p><a href="#"></a>ÁSZF és adatvédelmi nyilatkozat</p>
+            <p><a href="#"></a>Szállítási és fizetési információk</p>
+            <p><a href="#"></a>Gyakran ismételt kérdések</p>
+            <p><a href="#"></a>Kapcsolat</p>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-footer">
+            <p class="contact">szállítás</p>
+            <p>Minimális rendelés mennyiség<br/>20 GBP</p>
+            <p>-25 GBP-től - 4,99</p>
+            <p>-50 GBP-től - 2,99</p>
+            <p>-75 GBP-től - ingyenes</p>      
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-footer"> 
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FhufoUK%2F&tabs=timeline&width=280&height=190&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+            width="280" height="190" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+          </iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="btn btntop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <div class="btn desktop">desktop version</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="lib/jquery-3.2.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="lib/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/vendor/holder.min.js"></script>
+    <script src="hufo.js"></script>
+  </body>
+</html>
