@@ -70,11 +70,11 @@ body {
     }
 }@media (max-width:1344px) {
     .carousel-item {
-        height: 31rem;
+        height: 32rem;
     }
 }@media (max-width:1248px) {
     .carousel-item {
-        height: 29rem;
+        height: 30rem;
     }
 }@media (max-width:1152px) {
     .carousel-item {
