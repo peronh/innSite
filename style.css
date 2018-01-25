@@ -111,6 +111,7 @@ header ul li a:hover {
 .form-inline {
     position: absolute;
     top: 45px;
+    right: 0;
 }
 header .inside {
     color: #182f3d;
