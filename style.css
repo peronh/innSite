@@ -34,7 +34,7 @@ nav {
     z-index: 1000;
     top: 0;
     right: 0;
-    background-color: #862b2b;
+    background-color: #7D9CC9;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -227,7 +227,7 @@ header form .btn {
     margin-left: 22px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    background-color: #862b2b;
+    background-color: #7D9CC9;
     color: white;
     height: 100%;
     }
@@ -300,7 +300,7 @@ form input {
     border: none;
 }
 h1 {
-    padding:30px 0;
+    padding:25px 0;
     font-family: 'Great Vibes', cursive;
     color: #1c3348;
     font-size: 70px;
@@ -387,7 +387,7 @@ h1 {
 }
 .container-fluid-favorite {
     background-image: url(assets/fa.png);
-    padding-top: 10rem;
+    padding-top: 150px;
     position: relative;
 }
 .favorite-col h2 {
@@ -418,7 +418,7 @@ h1 {
 }
 .row-product {
     margin: 0 auto;
-    margin-bottom: 5rem;
+    margin-bottom: 120px;
     position: relative;
 }
 .row-product .col-product {
@@ -431,8 +431,8 @@ h1 {
 }
 .row-product .bean-pict {
     position: absolute;
-    top: 0;
-    left: 2rem;
+    top: 140px;
+    left: 130px;
 }
 .bean-name {
     position: absolute;
@@ -440,10 +440,22 @@ h1 {
     right: 12rem;
 }
 .bean-name p .btn {
-    width: 10rem;
+    width: 146px;
+    height: 50px;
+    padding: 17px;
+    font-size: 13px;
+}
+.bean-name .btn-secondary {
+    color: #b4b4b4;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: transparent;
+}
+.bean-name .pay {
+    color: #3c3c3c;
+    font-weight: 900;
 }
 .container-fluid-favorite .green-back {
-    height: 20rem;
+    height: 410px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -456,9 +468,10 @@ h1 {
     margin-left: 2rem;
 }
 del {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 200;
     vertical-align: middle;
+    color: #afafaf;
 }
 .col-pack-4 {
     background-color: #f5f5f5;
@@ -477,7 +490,6 @@ del {
     padding-top: 1rem;
     margin: 0.5rem;
     text-align: center;
-    margin: 0.5rem;
     font-weight: 600;
 }
 .col-pack-8 {
@@ -568,6 +580,20 @@ footer p a:hover {
     .cargo-col .media-body {
         margin-left: -1rem;
     }
+    .row-product .bean-pict {
+        width: 250px;
+        height: 200px;
+        top: 145px;
+        left: 130px;
+    }
+    .bean-name {
+        position: absolute;
+        top: 50px;
+        right: 130px;
+    }
+    .product-eat-name {
+        font-size: 60px;
+    }
     .carousel-caption .btn {
         bottom: 0;
         left: 7.5%;
@@ -597,6 +623,10 @@ footer p a:hover {
     .cargo-col h5 {
         font-size: 16px;
     }
+    .cargo-col img {
+        width: 100px;
+        height: 100px;
+    }
     .offer-col:nth-child(odd) {
         border: none;
     }
@@ -605,6 +635,22 @@ footer p a:hover {
     }
     h1 {
         font-size: 60px;
+    }
+    .row-product .bean-pict {
+        width: 200px;
+        height: 150px;
+        top: 90px;
+        left: 90px;
+    }
+    .bean-name {
+        right: 80px;
+        top: 30px}
+    .product-eat-name {
+        font-size: 40px;
+    }
+    .bean-name p .btn {
+        height: 40px;
+        padding: 11px;
     }
     .row-pack {
         margin: 0 auto;
@@ -678,6 +724,23 @@ footer p a:hover {
     .cargo-col .media-body {
         margin: 0 5px;
     }
+    .row-product .bean-pict {
+        width: 150px;
+        height: 120px;
+        top: 80px;
+        left: 70px;
+    }
+    .bean-name {
+        right: 60px;
+        top: 20px;
+    }
+    .bean-name .pay {
+        padding: 5px;
+        font-size: 25px;
+    }
+    .product-eat-name {
+        font-size: 32px;
+    }
     .info {
         display: block;
     }
@@ -687,7 +750,8 @@ footer p a:hover {
     .language .nav-link {
         display: block;
     }
-}@media (max-width:575.99px) {
+}
+@media (max-width:575.99px) {
     h1 {
         font-size: 36px;
     }
@@ -727,30 +791,8 @@ footer p a:hover {
     .desktop {
         display: block;
     }
-}@media (min-width:576px) and (max-width:767.99px) {
-    .row-product .bean-pict {
-        width: 200px;
-        height: 200px;
-    }
-    .bean-name {
-        right: 6rem;
-        top: 5%;
-        right: 2rem;
-    }
-    .product-eat-name {
-        font-size: 32px;
-    }
+
 }@media (min-width:768px) and (max-width:991.99px) {
-    .row-product .bean-pict {
-        width: 300px;
-        height: 300px;
-    }
-    .bean-name {
-        right: 6rem;
-        top: 10%}
-    .product-eat-name {
-        font-size: 48px;
-    }
     .categories-row .categories-col img {
         width: 210px;
         height: 280px;
@@ -773,13 +815,6 @@ footer p a:hover {
     }
     .categories-col .pieces {
         font-size: 14px;
-    }
-    .row-product .bean-pict {
-        width: 400px;
-        height: 400Px;
-    }
-    .bean-name {
-        right: 6rem;
     }
     .favorite-col h2 {
         font-size: 16px;
