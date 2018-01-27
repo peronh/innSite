@@ -638,6 +638,13 @@ i.fa.fa-arrow-up {
         width: 230px;
         height: 230px;
     }
+    .container-offer .right {
+        right: 5px;
+        z-index: 1000;
+    }
+ .container-offer .left {
+    left: -5px;
+  }
     .cargo-col {
         padding: 0 0 0 20px;
     }
@@ -816,6 +823,9 @@ i.fa.fa-arrow-up {
     }
     .categories-col .pieces {
         font-size: 14px;
+    }
+    .container-offer span {
+        display: none;
     }
     .offer-pay {
         display: none;

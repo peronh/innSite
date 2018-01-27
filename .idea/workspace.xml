@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bff3d5-75e1-4d6a-a2fb-7d65e7d9c0b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,8 +31,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="613" column="16" lean-forward="false" selection-start-line="613" selection-start-column="16" selection-end-line="613" selection-end-column="16" />
+            <state relative-caret-position="696">
+              <caret line="827" column="22" lean-forward="false" selection-start-line="827" selection-start-column="22" selection-end-line="827" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hufo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hufo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -143,12 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516917003654</updated>
       <workItem from="1516917006141" duration="3327000" />
-      <workItem from="1516976037201" duration="43313000" />
+      <workItem from="1516976037201" duration="44031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46640000" />
+    <option name="totallyTimeSpent" value="47358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
@@ -192,14 +201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hufo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -210,10 +211,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hufo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="613" column="16" lean-forward="false" selection-start-line="613" selection-start-column="16" selection-end-line="613" selection-end-column="16" />
+        <state relative-caret-position="696">
+          <caret line="827" column="22" lean-forward="false" selection-start-line="827" selection-start-column="22" selection-end-line="827" selection-end-column="22" />
           <folding />
         </state>
       </provider>
