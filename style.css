@@ -297,19 +297,16 @@ form input {
     font-size: 12px;
     margin: 0;
 }
-.offer-arrow {
+.container-offer span {
     position: absolute;
-    color: #a3a3a3;
-    font-size: 120%;
     cursor: pointer;
+    top: 50%;
 }
-.fa-chevron-right {
-    top: 45%;
-    right: -1rem;
+.container-offer .right {
+    right: -50px;
 }
-.fa-chevron-left {
-    top: 45%;
-    left: -1rem;
+.container-offer .left {
+    left: -50px;
 }
 .offer-row .offer-col {
     border-right: .5px solid hsla(210, 7%, 56%, .7);
