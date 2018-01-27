@@ -17,7 +17,10 @@ body {
     margin: 0;
 }
 .btn {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
@@ -343,6 +346,7 @@ h1 {
     color: #080808;
 }
 .offer-row .btn {
+    margin: 0 auto;
     width: 130px;
     height: 40px;
     text-transform: uppercase;
@@ -414,6 +418,7 @@ h1 {
 }
 .favorite-col .btn {
     font-size: 13px;
+    margin: 0 auto;
     width: 130px;
     height: 40px;
     font-weight: 600;
@@ -492,17 +497,31 @@ del {
 }
 .col-pack-4 {
     background-color: #f5f5f5;
-    padding: 16px 120px 16px 16px;
+    padding: 60px 110px 16px 40px;
     border-radius: 5px;
     width: 500px;
     height: 400px;
     position: absolute;
     left: 0;
 }
+.col-pack-4 .lorem {
+    margin: 0;
+    font-size: 14px;
+    line-height: 25px;
+    color: #949494;
+}
+.col-pack-4 .btn {
+    width: 290px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .col-pack-8 {
-    padding: 0;
+    padding-right: 0;
     position: absolute;
     right: 0;
+    padding-left: 40px;
 }
 .col-pack-8 p {
     color: #1c3348;
@@ -591,6 +610,10 @@ footer p a:hover {
     margin-left: 40px;
 }
 @media (max-width:1200px) {
+    .favorite-col img {
+        width: 230px;
+        height: 230px;
+    }
     .cargo-col {
         padding: 0 0 0 20px;
     }
@@ -615,6 +638,17 @@ footer p a:hover {
         bottom: -10px;
         width: 250px;
         height: 50px;
+    }
+    .col-pack-4 {
+        padding: 40px 70px 16px 20px;
+        width: 400px;
+    }
+    .col-pack-8 {
+        padding-left: 20px;
+    }
+    .sio img {
+        width: 190px;
+        height: 220px;
     }
 }@media (max-width:991.99px) {
     .logo {
@@ -688,9 +722,10 @@ footer p a:hover {
         top: 350px;
     }
     .col-pack-4 {
-        padding: 1rem;
-        margin: 0 auto;
-        width: 100%}
+        padding: 40px;
+        height: 300px;
+        width: 100%;
+    }
     .row-sio-pack {
         margin: 0 auto;
         margin-top: -1rem;
@@ -785,6 +820,13 @@ footer p a:hover {
     .col-pack-8 {
         display: none;
     }
+    .col-pack-4 .btn {
+        width: 250px;
+        height: 40px;
+    }
+    .pay {
+        padding: 10px;
+    }
 }
 @media (max-width:575.99px) {
     h1 {
@@ -813,11 +855,9 @@ footer p a:hover {
     .offer-col {
         border: none!important;
     }
-    /*.sio img {
-        width: 100px;
-        height: 125px;
-    }*/
-
+    .col-pack-4 {
+        padding: 10px;
+    }
     footer .contact {
         border-bottom: .5px solid hsla(210, 7%, 56%, .7);
     }
