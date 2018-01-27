@@ -9,7 +9,10 @@ body {
     background-image: url(assets/backgr.png);
     font-family: 'Martel Sans', sans-serif;
     line-height: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+}
+a:hover {
+    text-decoration: none;
 }
 .container {
     padding: 0;
@@ -89,7 +92,7 @@ header {
 }
 .nav-link {
     padding: 6px 0;
-    margin-left: 33px;
+    margin-left: 32px;
 }
 .fa {
     font-size: 120%;
@@ -468,6 +471,9 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.23);
     background-color: transparent;
 }
+.bean-name .btn-secondary:hover {
+    background-color: #1e7e34;
+}
 .bean-name .pay {
     color: #3c3c3c;
     font-weight: 900;
@@ -655,7 +661,7 @@ iframe {
         font-size: 60px;
     }
     .carousel-caption .btn {
-        bottom: -10px;
+        bottom: 0;
         width: 250px;
         height: 50px;
     }
@@ -702,6 +708,20 @@ iframe {
     }
     .navbar-expand-md .navbar-nav {
         font-size: 13px;
+    }
+    .carousel-caption .btn {
+        width: 200px;
+        height: 35px;
+        font-size: 13px;
+        bottom: -20px;
+    }
+
+    .carousel-indicators {
+        margin-right: 0;
+    }
+    .carousel-indicators li {
+        width: 12px!important;
+        height: 12px!important;
     }
     .cargo-col {
         padding: 0;
