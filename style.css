@@ -9,6 +9,7 @@ body {
     background-image: url(assets/backgr.png);
     font-family: 'Martel Sans', sans-serif;
     line-height: 30px;
+    padding-bottom: 60px;
 }
 .container {
     padding: 0;
@@ -17,7 +18,6 @@ body {
     margin: 0;
 }
 .btn {
-    /*vertical-align: middle;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -543,24 +543,32 @@ footer {
     border: none;
 }
 .col-footer-contact .icons {
-    display: inline-block;
-    font-size: 120%;
-    border-radius: .3rem;
+    display: flex;
+    padding-left: 5px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
     width: 30px;
     height: 30px;
-    background-color: #5a5a5a;
+    background-color: #3c3c3c;
     text-align: center;
     color: white;
-    padding-top: 2px;
+    margin: 0 5px;
 }
 .col-footer {
     margin-top: 1rem;
 }
 .phone-number {
-    font-weight: 600;
+    font-weight: 900;
+    color: #3c3c3c;
+}
+.order {
+    line-height: 20px;
+    font-size: 18px;
 }
 .fa-envelope {
-    margin-bottom: 4rem;
+    margin-bottom: 50px;
 }
 footer .contact {
     font-size: 17px;
@@ -571,9 +579,23 @@ footer .contact {
 footer p, footer p a {
     font-size: 13px;
     color: #949494;
+    margin: 0;
+}
+.col-footer-contact {
+    line-height: 40px;
+}
+.col-footer-iframe {
+    margin-right: 30px;
+}
+.fa-phone-square, .fa-envelope {
+    color: #3c3c3c;
 }
 footer p a:hover {
     text-decoration: none;
+}
+iframe {
+    position: absolute;
+    right: 20px;
 }
 .btntop {
     position: fixed;
@@ -647,6 +669,10 @@ footer p a:hover {
     .sio img {
         width: 190px;
         height: 220px;
+    }
+    iframe {
+        position: static;
+        margin-top: 20px;
     }
 }@media (max-width:991.99px) {
     .logo {
@@ -825,6 +851,12 @@ footer p a:hover {
     .pay {
         padding: 10px;
     }
+    footer .contact {
+        border-bottom: .5px solid hsla(210, 7%, 56%, .7);;
+    }
+    .col-footer {
+        border-left: none;
+    }
 }
 @media (max-width:575.99px) {
     h1 {
@@ -855,9 +887,6 @@ footer p a:hover {
     }
     .col-pack-4 {
         padding: 10px;
-    }
-    footer .contact {
-        border-bottom: .5px solid hsla(210, 7%, 56%, .7);
     }
     .desktop {
         display: block;
