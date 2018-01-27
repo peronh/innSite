@@ -37,7 +37,7 @@ nav {
     z-index: 1000;
     top: 0;
     right: 0;
-    background-color: #7D9CC9;
+    background-color: #182f3d;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -65,7 +65,7 @@ nav {
     margin-bottom: 20px;
 }
 nav span {
-    color: #862b2b;
+    color: #182f3d;
     font-size: 120%}
 .info {
     position: absolute;
@@ -89,7 +89,7 @@ header {
 }
 .nav-link {
     padding: 6px 0;
-    margin-left: 35px;
+    margin-left: 33px;
 }
 .fa {
     font-size: 120%;
@@ -203,7 +203,6 @@ header .inside {
     width: 100%;
 }
 .nav-justified .nav-item {
-    /* padding: 0;*/
     display: flex;
     align-items: center;
     flex-basis: inherit;
@@ -219,7 +218,7 @@ header .inside {
     right:0;
 }
 .nav-justified .nav-item a:hover {
-    background-color: #7D9CC9;
+    background-color: #182f3d;
     color: white;
     height: 100%;
     display:flex;
@@ -244,7 +243,7 @@ header form .btn {
     margin-left: 22px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    background-color: #7D9CC9;
+    background-color: #182f3d;
     color: white;
     height: 100%;
     }
@@ -481,10 +480,9 @@ h1 {
     bottom: 0;
 }
 .container-pack {
-    padding-top: 10rem;
+    padding-top: 135px;
 }
 .row-pack {
-    margin-top: 40px;
     position: relative;
     display: flex;
     height: 400px;
