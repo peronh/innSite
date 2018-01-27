@@ -465,7 +465,10 @@ h1 {
     padding-top: 10rem;
 }
 .row-pack {
-    margin-left: 2rem;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    height: 400px;
 }
 del {
     font-size: 18px;
@@ -475,25 +478,29 @@ del {
 }
 .col-pack-4 {
     background-color: #f5f5f5;
-    padding: 1rem 5rem 1rem 1rem;
-    border-radius: .5rem;
+    padding: 16px 120px 16px 16px;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+}
+.col-pack-8 {
+    padding: 0;
+    position: absolute;
+    right: 0;
 }
 .col-pack-8 p {
     color: #1c3348;
     font-size: 14px;
-    padding-top: 2rem;
 }
 .sio {
     background-color: white;
-    border: 2px solid #f5f5f5;
+    border: 3px solid #f5f5f5;
     border-radius: .5rem;
     padding-top: 1rem;
-    margin: 0.5rem;
     text-align: center;
     font-weight: 600;
-}
-.col-pack-8 {
-    margin-left: -3rem;
 }
 footer {
     margin-top: 5rem;
@@ -572,10 +579,6 @@ footer p a:hover {
 @media (max-width:1200px) {
     .cargo-col {
         padding: 0 0 0 20px;
-    }
-    .sio img {
-        width: 150px;
-        height: 180px;
     }
     .cargo-col .media-body {
         margin-left: -1rem;
@@ -657,6 +660,7 @@ footer p a:hover {
     }
     .col-pack-8 {
         margin: 0 auto;
+        top: 350px;
     }
     .col-pack-4 {
         padding: 1rem;
@@ -669,6 +673,7 @@ footer p a:hover {
     .col-pack-sio {
         margin: 0 auto;
     }
+
 }@media (max-width:767.99px) {
     .container-menu {
         max-width: 100%!important;
@@ -750,6 +755,9 @@ footer p a:hover {
     .language .nav-link {
         display: block;
     }
+    .col-pack-8 {
+        display: none;
+    }
 }
 @media (max-width:575.99px) {
     h1 {
@@ -778,13 +786,11 @@ footer p a:hover {
     .offer-col {
         border: none!important;
     }
-    .sio img {
+    /*.sio img {
         width: 100px;
         height: 125px;
-    }
-    .col-pack-8 {
-        display: none;
-    }
+    }*/
+
     footer .contact {
         border-bottom: .5px solid hsla(210, 7%, 56%, .7);
     }
@@ -804,6 +810,9 @@ footer p a:hover {
     .categories-col .pieces {
         font-size: 13px;
         top: 80px;
+    }
+    footer {
+        margin-top: 300px;
     }
 }@media (min-width:992px) and (max-width:1199.99px) {
    .categories-row .categories-col img {
