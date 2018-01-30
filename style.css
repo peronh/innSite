@@ -462,6 +462,9 @@ h1 {
     padding: 17px;
     font-size: 13px;
 }
+.bean-name .btn-success {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .1);
+}
 .bean-name .btn-secondary {
     color: #b4b4b4;
     border: 1px solid rgba(0, 0, 0, .23);
