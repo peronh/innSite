@@ -680,6 +680,9 @@ i.fa.fa-arrow-up {
     .cargo-col .media-body {
         margin-left: -1rem;
     }
+    .cargo-col h5 {
+        font-size: 20px;
+    }
     .row-product .bean-pict {
         width: 250px;
         height: 200px;
@@ -761,9 +764,6 @@ i.fa.fa-arrow-up {
     }
     .cargo-col {
         padding: 0;
-    }
-    .cargo-col h5 {
-        font-size: 16px;
     }
     .cargo-col img {
         width: 100px;
