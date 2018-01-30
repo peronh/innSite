@@ -170,7 +170,8 @@ header .inside {
     bottom: 100px;
     left: 7.5%;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 15px;
+    font-weight: 900;
     color: #1c3348;
     width: 300px;
     height: 60px;
@@ -320,7 +321,7 @@ h1 {
     color: #292929;
     font-weight: 800;
     font-size: 30px;
-    margin: 0;
+    margin: 10px auto;
     line-height: 50px;
 }
 .offer-row .offer-eat-name {
@@ -334,7 +335,10 @@ h1 {
     line-height: 20px;
 }
 .offer-col .btn-secondary {
-    color: #080808;
+    color: #434343;
+}
+.offer-col .btn-success {
+    box-shadow: 5px 5px 20px #e9e9e9;
 }
 .offer-row .btn {
     margin: 0 auto;
@@ -351,7 +355,7 @@ h1 {
 .cargo-row {
     position: relative;
     margin-top: 120px;
-    padding: 0 40px;
+    padding: 0 0 0 80px;
     border-radius: 1rem;
     height: 200px;
     display: flex;
@@ -371,7 +375,7 @@ h1 {
     top: -10%;
     left: 1.75%}
 .cargo-col {
-    padding: 0 0 0 40px;
+        padding: 0;
 }
 .cargo-col img {
     width: 120px;
@@ -381,17 +385,23 @@ h1 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
+    line-height: 27px;
 }
 .cargo-col p {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
+    line-height: 27px;
+    margin: 0;
 }
 .media-body {
-    margin-left: -1rem;
-    margin-top: 1rem;
+    margin-left: -20px;
+    margin-top: 20px;
 }
 .cargo-row-second {
     margin-top: 1rem;
+}
+.cargo-row-second .media-body {
+    text-shadow: 13px 13px 20px rgba(0, 0, 0, 0.3);
 }
 .container-fluid-favorite {
     background-image: url(assets/fa.png);
@@ -526,17 +536,20 @@ del {
 .col-pack-8 p {
     color: #1c3348;
     font-size: 14px;
+    font-weight: 300;
 }
 .col-pack-sio {
     padding: 0;
 }
+.sio p {
+    margin-top: 16px;
+}
 .sio {
     background-color: white;
     border: 3px solid #f5f5f5;
-    border-radius: .5rem;
-    padding-top: 1rem;
+    border-radius: 10px;
+    padding-top: 20px;
     text-align: center;
-    font-weight: 600;
     width: 220px;
     height: 310px;
 }
@@ -955,6 +968,9 @@ i.fa.fa-arrow-up {
     .categories-col .head {
         font-size: 20px;
         top: 50px;
+    }
+    .cargo-col h5 {
+        font-size: 16px;
     }
     .categories-col .pieces {
         font-size: 13px;
