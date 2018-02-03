@@ -258,6 +258,26 @@ form input {
 .categories-col {
     position: relative;
 }
+.categories-col img {
+    border-radius: 10px;
+}
+.line-1 {
+    position: absolute;
+    width: calc(100% - 40px);
+    border: .3rem solid rgb(245, 245, 245);
+    border-radius: 1rem;
+    top: -20px;
+    left:20px;
+    bottom:0;
+}
+.beef {
+    position: absolute;
+    bottom: -50px;
+    left:0;
+}
+.drink {
+    left: -15px;
+}
 .categories-col span {
     position: absolute;
     left: 0;
@@ -663,6 +683,17 @@ i.fa.fa-arrow-up {
     border: none;
 }
 @media (max-width:1200px) {
+    .categories-col img {
+        width: 280px;
+        height: 300px;
+    }
+    .categories-col .beef.beef {
+        height: 65%;
+        width: 103%;
+    }
+    .beef {
+        bottom:-30px;
+    }
     .favorite-col img {
         width: 230px;
         height: 230px;
@@ -846,9 +877,8 @@ i.fa.fa-arrow-up {
     .categories-row {
         justify-content: center;
     }
-    .categories-row .categories-col img {
-        width: 300px;
-        height: 350px;
+    .categories-col {
+        margin-bottom: 100px;
     }
     .categories-col .head {
         font-size: 30px;
@@ -936,10 +966,6 @@ i.fa.fa-arrow-up {
     h1 {
         font-size: 36px;
     }
-    .categories-row .categories-col img {
-        width: 310px;
-        height: 360px;
-    }
     .cargo-row {
         height: 100%;
         padding-left: 60px;
@@ -967,9 +993,9 @@ i.fa.fa-arrow-up {
         display: block;
     }
 }@media (min-width:768px) and (max-width:991.99px) {
-    .categories-row .categories-col img {
-        width: 230px;
-        height: 280px;
+    .categories-col img {
+        width: 220px;
+        height: 240px;
     }
     .categories-col .head {
         font-size: 20px;
@@ -986,10 +1012,6 @@ i.fa.fa-arrow-up {
         margin-top: 300px;
     }
 }@media (min-width:992px) and (max-width:1199.99px) {
-    .categories-row .categories-col img {
-        width: 300px;
-        height: 350px;
-    }
     .categories-col .head {
         font-size: 30px;
     }
@@ -1002,9 +1024,5 @@ i.fa.fa-arrow-up {
 }@media (max-width:1440px) {
     .carousel-caption .btn {
         bottom: 20px;
-    }
-}@media (min-width:768px) {
-    .categories-col {
-        margin: 0 -15px;
     }
 }
