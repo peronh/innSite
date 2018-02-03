@@ -293,14 +293,14 @@ form input {
     -webkit-transition: all 0.5s ease-in-out;
 }
 .categories-col .pieces {
-    top: 110px;
+    top: 90px;
     font-size: 15px;
     font-weight: 600;
 }
 .categories-col .head {
     font-size: 35px;
     font-weight: 900;
-    top: 80px;
+    top: 60px;
 }
 .container-offer {
     position: relative;
@@ -353,7 +353,7 @@ h1 {
     margin: 0;
 }
 .offer-pay-second {
-    line-height: 20px;
+    line-height: 10px;
 }
 .offer-col .btn-secondary {
     color: #434343;
