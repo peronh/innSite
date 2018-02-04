@@ -249,7 +249,7 @@ form input {
 }
 .categories-container {
     margin-bottom: 80px;
-    margin-top: 30px;
+    margin-top: 4git ad0px;
 }
 .categories-row {
     display: flex;
@@ -433,6 +433,7 @@ h1 {
     padding: 0;
 }
 .favorite-col h2 {
+    height: 15px;
     font-size: 18px;
     color: #1c3348;
     text-transform: uppercase;
@@ -446,7 +447,6 @@ h1 {
     width: 130px;
     height: 40px;
     font-weight: 600;
-    margin-top: 5px;
     padding-top: 12px;
     color: #434343;
     background-color: #fff;
