@@ -409,7 +409,7 @@ h1 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
-    line-height: 27px;
+    margin: 0;
 }
 .cargo-col p {
     font-size: 15px;
