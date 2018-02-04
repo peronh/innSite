@@ -198,7 +198,7 @@ header .inside {
 .navbar-light .navbar-nav .nav-link {
     color: #182f3d;
     font-weight: 800;
-    margin: 8px auto 0;
+    margin: 0 auto;
     width: 100%}
 .nav-justified .nav-item {
     display: flex;
@@ -462,7 +462,7 @@ h1 {
     background-color: #58c56f;
 }
 .row-product {
-    margin: 0 auto;
+    padding: 0 10px;
     margin-bottom: 120px;
     position: relative;
 }
@@ -554,6 +554,7 @@ del {
 .col-pack-4 .btn {
     width: 290px;
     height: 50px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -731,6 +732,10 @@ i.fa.fa-arrow-up {
         top: 145px;
         left: 130px;
     }
+    .book-pict {
+        width: 900px;
+        height: 455px;
+    }
     .bean-name {
         position: absolute;
         top: 50px;
@@ -819,6 +824,10 @@ i.fa.fa-arrow-up {
     }
     h1 {
         font-size: 60px;
+    }
+    .book-pict {
+        width: 700px;
+        height: 350px;
     }
     .row-product .bean-pict {
         width: 200px;
@@ -953,9 +962,11 @@ i.fa.fa-arrow-up {
     .col-pack-4 .btn {
         width: 250px;
         height: 40px;
+        margin: 0;
     }
     .pay {
-        padding: 10px;
+        padding: 10px 0;
+        margin: 0;
     }
     footer .contact {
         border-bottom: .5px solid hsla(210, 7%, 56%, .7);
@@ -967,7 +978,7 @@ i.fa.fa-arrow-up {
         margin-bottom: 20px!important;
     }
     .categories-container {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
     .offer-col img {
         margin-bottom: 20px;
@@ -997,7 +1008,7 @@ i.fa.fa-arrow-up {
         display: none;
     }
     .cargo-row-second {
-        margin-top: 4rem;
+        margin-top: 50px;
     }
     .offer-col {
         border: none!important;
@@ -1007,6 +1018,9 @@ i.fa.fa-arrow-up {
     }
     .col-pack-4 {
         padding: 10px;
+    }
+    .day-product {
+        margin-top: 15px;
     }
     .desktop {
         display: block;
