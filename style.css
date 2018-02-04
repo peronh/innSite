@@ -1,11 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Martel+Sans);
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Martel+Sans');
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 body {
-    background-image: url(assets/backgr.png);
+    /*background-image: url('assets/backgr.png');*/
+    background-color: #ffffff;
     font-family: 'Martel Sans', sans-serif;
     line-height: 30px;
     padding-bottom: 70px;
@@ -454,7 +455,7 @@ h1 {
     color: #434343;
     background-color: #fff;
     border: none;
-    box-shadow: 0 0 60px #bdc0c2;
+    box-shadow: -6.4px 7.7px 20px 0 rgba(0, 0, 0, 0.15);
 }
 .favorite-col .btn:hover {
     background-color: #58c56f;
@@ -982,7 +983,7 @@ i.fa.fa-arrow-up {
     }
     .cargo-row {
         height: 100%;
-        padding-left: 60px;
+        padding-left: 30px;
     }
     .cargo-col img {
         width: 80px;
@@ -999,6 +1000,9 @@ i.fa.fa-arrow-up {
     }
     .offer-col {
         border: none!important;
+    }
+    .offer-col img {
+        margin: 10px;
     }
     .col-pack-4 {
         padding: 10px;
