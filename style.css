@@ -300,6 +300,7 @@ form input {
     font-weight: 600;
 }
 .categories-col .head {
+    font-family: 'Martel Sans', sans-serif;
     font-size: 35px;
     font-weight: 900;
     top: 60px;
@@ -732,10 +733,10 @@ i.fa.fa-arrow-up {
         top: 145px;
         left: 130px;
     }
-    .book-pict {
+    /*.book-pict {
         width: 900px;
         height: 455px;
-    }
+    }*/
     .bean-name {
         position: absolute;
         top: 50px;
@@ -825,18 +826,18 @@ i.fa.fa-arrow-up {
     h1 {
         font-size: 60px;
     }
-    .book-pict {
+   /* .book-pict {
         width: 700px;
         height: 350px;
-    }
+    }*/
     .row-product .bean-pict {
         width: 200px;
-        height: 150px;
+        height: 160px;
         top: 90px;
         left: 90px;
     }
     .bean-name {
-        right: 80px;
+        right: 100px;
         top: 30px;
     }
     .product-eat-name {
@@ -933,7 +934,7 @@ i.fa.fa-arrow-up {
     .row-product .bean-pict {
         width: 150px;
         height: 120px;
-        top: 80px;
+        top: 70px;
         left: 70px;
     }
     .bean-name {
@@ -941,11 +942,11 @@ i.fa.fa-arrow-up {
         top: 20px;
     }
     .bean-name .pay {
-        padding: 5px;
-        font-size: 25px;
+        padding: 0;
+        font-size: 20px;
     }
     .product-eat-name {
-        font-size: 32px;
+        font-size: 28px;
     }
     .info {
         display: block;
