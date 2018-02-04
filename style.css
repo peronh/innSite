@@ -429,11 +429,14 @@ h1 {
     padding-top: 150px;
     position: relative;
 }
+.favorite-col {
+    padding: 0;
+}
 .favorite-col h2 {
     font-size: 18px;
     color: #1c3348;
     text-transform: uppercase;
-    margin: 1rem 0;
+    margin: 30px 0 27px 0;
     font-weight: 900;
     opacity: .5;
 }
@@ -696,7 +699,7 @@ i.fa.fa-arrow-up {
     }
     .favorite-col img {
         width: 230px;
-        height: 230px;
+        height: 195px;
     }
     .container-offer .right {
         right: 5px;
