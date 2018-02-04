@@ -435,6 +435,7 @@ h1 {
 }
 .favorite-col {
     padding: 0;
+    margin-top: 10px;
 }
 .favorite-col h2 {
     height: 15px;
@@ -476,12 +477,12 @@ h1 {
 .row-product .bean-pict {
     position: absolute;
     top: 140px;
-    left: 103px;
+    left: 122px;
 }
 .bean-name {
     position: absolute;
     top: 20%;
-    right: 12rem;
+    right: 204px;
 }
 .bean-name p .btn {
     width: 146px;
@@ -520,7 +521,7 @@ h1 {
     height: 400px;
 }
 .day-product {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 .chip-pack {
     margin-top: 135px;
