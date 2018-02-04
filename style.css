@@ -227,6 +227,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.rounded.mb-3 {
 }
 .menu-row {
     height: 60px;
+    padding: 0 70px;
 }
 .navbar-light .navbar-toggler {
     border: none;
@@ -686,6 +687,9 @@ i.fa.fa-arrow-up {
     border: none;
 }
 @media (max-width:1200px) {
+    .menu-row {
+        padding: 0 20px;
+    }
     .categories-col img {
         width: 280px;
         height: 300px;
