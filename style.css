@@ -79,7 +79,7 @@ nav span {
 }
 .language {
     display: inline;
-    margin: 0 4px;
+    margin: 0 7px;
     color: #b0b0b0;
 }
 .col-list {
@@ -91,7 +91,7 @@ header {
 }
 .nav-link {
     padding: 6px 0;
-    margin-left: 32px;
+    margin-left: 28px;
 }
 .fa {
     font-size: 120%;
@@ -158,9 +158,9 @@ header .inside {
 .fa-search {
     position: absolute;
     color: #58c56f;
-    font-size: 120%;
+    font-size: 130%;
     top: 14px;
-    left: 270px;
+    left: 263px;
 }
 .carousel-caption .btn {
     display: flex;
@@ -197,7 +197,7 @@ header .inside {
 .navbar-light .navbar-nav .nav-link {
     color: #182f3d;
     font-weight: 800;
-    margin: 0 auto;
+    margin: 8px auto 0;
     width: 100%}
 .nav-justified .nav-item {
     display: flex;
@@ -207,7 +207,7 @@ header .inside {
 }
 .nav-justified .after :after {
     content: '';
-    height: 30px;
+    height: 28px;
     width: 1px;
     margin: 0;
     background-color: #e5e5e5;
