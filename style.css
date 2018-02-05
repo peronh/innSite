@@ -381,7 +381,6 @@ h1 {
 }
 .cargo-row-first {
     background-image: url(assets/tablapt.png);
-    mix-blend-mode: multiply;
 }
 .cargo-row {
     position: relative;
