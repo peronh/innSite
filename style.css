@@ -835,10 +835,6 @@ i.fa.fa-arrow-up {
     h1 {
         font-size: 60px;
     }
-   /* .book-pict {
-        width: 700px;
-        height: 350px;
-    }*/
     .row-product .bean-pict {
         width: 200px;
         height: 160px;
@@ -953,6 +949,7 @@ i.fa.fa-arrow-up {
     .bean-name .pay {
         padding: 0;
         font-size: 20px;
+        margin: 0;
     }
     .product-eat-name {
         font-size: 28px;
