@@ -5,7 +5,6 @@
     border: 0;
 }
 body {
-    /*background-image: url('assets/backgr.png');*/
     background-color: #ffffff;
     font-family: 'Martel Sans', sans-serif;
     line-height: 30px;
@@ -211,10 +210,10 @@ header .inside {
 }
 .nav-justified .after :after {
     content: '';
-    height: 28px;
+    height: 26px;
     width: 1px;
     margin: 0;
-    background-color: #e5e5e5;
+    background-color: #d9d9d9;
     position: absolute;
     right: 0;
 }
@@ -228,6 +227,7 @@ header .inside {
 }
 nav.navbar.navbar-expand-md.navbar-light.bg-light.rounded.mb-3 {
     padding: 0;
+    background-color: #f5f5f5!important;
 }
 .menu-row {
     height: 60px;
@@ -237,6 +237,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.rounded.mb-3 {
     border: none;
 }
 header form .btn {
+    background-color: #7ece8f;
     font-size: 14px;
     text-transform: lowercase;
     font-weight: 400;
@@ -348,7 +349,7 @@ h1 {
     color: #292929;
     font-weight: 800;
     font-size: 30px;
-    margin: 10px auto;
+    margin: 15px auto 11px;
     line-height: 50px;
 }
 .offer-row .offer-eat-name {
@@ -380,6 +381,7 @@ h1 {
 }
 .cargo-row-first {
     background-image: url(assets/tablapt.png);
+    mix-blend-mode: multiply;
 }
 .cargo-row {
     position: relative;
@@ -456,7 +458,6 @@ h1 {
     width: 130px;
     height: 40px;
     font-weight: 600;
-    padding-top: 12px;
     color: #434343;
     background-color: #fff;
     border: none;
@@ -485,8 +486,11 @@ h1 {
 }
 .bean-name {
     position: absolute;
-    top: 20%;
+    top: 93px;
     right: 204px;
+}
+.bean-name .pay {
+    margin: 19px auto 35px;
 }
 .bean-name p .btn {
     width: 146px;
@@ -515,6 +519,7 @@ h1 {
     position: absolute;
     left: 0;
     bottom: 0;
+    mix-blend-mode: multiply;
 }
 .container-pack {
     position: relative;
@@ -616,6 +621,7 @@ footer {
 }
 .col-footer {
     margin-top: 1rem;
+    padding-left: 29px;
 }
 .phone-number {
     font-weight: 900;
@@ -630,6 +636,7 @@ footer {
 }
 footer .contact {
     font-size: 17px;
+    margin-bottom: 22px;
     color: #3c3c3c;
     font-weight: 800;
     text-transform: uppercase;
@@ -638,10 +645,9 @@ footer p, footer p a {
     font-size: 13px;
     color: #949494;
     margin: 0;
-}
-.col-footer-contact {
     line-height: 40px;
 }
+
 .col-footer-iframe {
     margin-right: 30px;
 }
