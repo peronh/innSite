@@ -513,6 +513,7 @@ h1 {
     font-weight: 900;
 }
 .container-fluid-favorite .green-back {
+    background-color: #50b465;
     height: 410px;
     width: 100%;
     position: absolute;
