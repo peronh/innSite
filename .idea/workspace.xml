@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bff3d5-75e1-4d6a-a2fb-7d65e7d9c0b1" name="Default" comment="" />
+    <list default="true" id="c6bff3d5-75e1-4d6a-a2fb-7d65e7d9c0b1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,10 +48,10 @@
       <list>
         <option value="$PROJECT_DIR$/hufo.js" />
         <option value="$PROJECT_DIR$/lib/carousel.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styl.sass" />
         <option value="$PROJECT_DIR$/sty.sass" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -142,12 +144,12 @@
       <workItem from="1517860672404" duration="147000" />
       <workItem from="1517864665122" duration="1243000" />
       <workItem from="1517867165148" duration="2639000" />
-      <workItem from="1517944460597" duration="835000" />
+      <workItem from="1517944460597" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118006000" />
+    <option name="totallyTimeSpent" value="118549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1023" y="-11" width="1333" height="786" extended-state="6" />
