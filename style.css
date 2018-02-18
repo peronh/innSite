@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Martel+Sans');
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Martel+Sans);
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 body {
-    background-color: #ffffff;
+    background-image: url(assets/backgr.png);
     font-family: 'Martel Sans', sans-serif;
     line-height: 30px;
     padding-bottom: 70px;
@@ -79,7 +79,7 @@ nav span {
 }
 .language {
     display: inline;
-    margin: 0 7px;
+    margin: 0 4px;
     color: #b0b0b0;
 }
 .col-list {
@@ -91,7 +91,7 @@ header {
 }
 .nav-link {
     padding: 6px 0;
-    margin-left: 28px;
+    margin-left: 32px;
 }
 .fa {
     font-size: 120%;
@@ -142,7 +142,7 @@ header .inside {
     font-weight: 400;
     color: #a3a3a3;
     font-style: italic;
-    top: 86px;
+    top: 90px;
     left: 80px;
 }
 .container-search {
@@ -151,7 +151,6 @@ header .inside {
 .form-control {
     font-size: 12px;
     height: 40px;
-    padding-left: 26px;
     width: 300px!important;
 }
 .fa-shopping-cart {
@@ -159,9 +158,9 @@ header .inside {
 .fa-search {
     position: absolute;
     color: #58c56f;
-    font-size: 130%;
+    font-size: 120%;
     top: 14px;
-    left: 263px;
+    left: 270px;
 }
 .carousel-caption .btn {
     display: flex;
@@ -199,9 +198,7 @@ header .inside {
     color: #182f3d;
     font-weight: 800;
     margin: 0 auto;
-    width: 100%;
-    padding-top: 9px;
-}
+    width: 100%}
 .nav-justified .nav-item {
     display: flex;
     align-items: center;
@@ -210,10 +207,10 @@ header .inside {
 }
 .nav-justified .after :after {
     content: '';
-    height: 26px;
+    height: 30px;
     width: 1px;
     margin: 0;
-    background-color: #d9d9d9;
+    background-color: #e5e5e5;
     position: absolute;
     right: 0;
 }
@@ -227,7 +224,6 @@ header .inside {
 }
 nav.navbar.navbar-expand-md.navbar-light.bg-light.rounded.mb-3 {
     padding: 0;
-    background-color: #f5f5f5!important;
 }
 .menu-row {
     height: 60px;
@@ -237,7 +233,6 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light.rounded.mb-3 {
     border: none;
 }
 header form .btn {
-    background-color: #7ece8f;
     font-size: 14px;
     text-transform: lowercase;
     font-weight: 400;
@@ -254,7 +249,8 @@ form input {
     font-style: italic;
 }
 .categories-container {
-    margin-bottom: 120px;
+    margin-bottom: 80px;
+    margin-top: 4git ad0px;
 }
 .categories-row {
     display: flex;
@@ -304,7 +300,6 @@ form input {
     font-weight: 600;
 }
 .categories-col .head {
-    font-family: 'Martel Sans', sans-serif;
     font-size: 35px;
     font-weight: 900;
     top: 60px;
@@ -330,7 +325,7 @@ form input {
 }
 .offer-row .offer-col {
     border-right: .5px solid hsla(210, 7%, 56%, .7);
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .offer-col:nth-child(4n+1) {
     border: none;
@@ -343,13 +338,13 @@ h1 {
     margin: 0 auto;
 }
 .offer-col img {
-    margin: 44px 0;
+    margin: 40px 0;
 }
 .pay {
     color: #292929;
     font-weight: 800;
     font-size: 30px;
-    margin: 15px auto 11px;
+    margin: 10px auto;
     line-height: 50px;
 }
 .offer-row .offer-eat-name {
@@ -357,13 +352,7 @@ h1 {
     font-size: 15px;
     font-weight: 800;
     line-height: 30px;
-    margin: 7px 0 0 0;
-}
-.offer-row .btn {
-    margin: 0 auto;
-    width: 130px;
-    height: 40px;
-    text-transform: uppercase;
+    margin: 0;
 }
 .offer-pay-second {
     line-height: 10px;
@@ -373,8 +362,12 @@ h1 {
 }
 .offer-col .btn-success {
     box-shadow: 6.4px 7.7px 15px 0 rgba(0, 0, 0, 0.1);
-    margin-top: -5px;
-    margin-bottom: 20px;
+}
+.offer-row .btn {
+    margin: 0 auto;
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
 }
 .offer-row .btn-succes {
     background-color: #58c56f;
@@ -415,7 +408,7 @@ h1 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
-    margin: 0;
+    line-height: 27px;
 }
 .cargo-col p {
     font-size: 15px;
@@ -440,7 +433,6 @@ h1 {
 }
 .favorite-col {
     padding: 0;
-    margin-top: 10px;
 }
 .favorite-col h2 {
     height: 15px;
@@ -457,16 +449,17 @@ h1 {
     width: 130px;
     height: 40px;
     font-weight: 600;
+    padding-top: 12px;
     color: #434343;
     background-color: #fff;
     border: none;
-    box-shadow: -6.4px 7.7px 20px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 60px #bdc0c2;
 }
 .favorite-col .btn:hover {
     background-color: #58c56f;
 }
 .row-product {
-    padding: 0 10px;
+    margin: 0 auto;
     margin-bottom: 120px;
     position: relative;
 }
@@ -481,15 +474,12 @@ h1 {
 .row-product .bean-pict {
     position: absolute;
     top: 140px;
-    left: 122px;
+    left: 103px;
 }
 .bean-name {
     position: absolute;
-    top: 93px;
-    right: 204px;
-}
-.bean-name .pay {
-    margin: 19px auto 35px;
+    top: 20%;
+    right: 12rem;
 }
 .bean-name p .btn {
     width: 146px;
@@ -513,13 +503,11 @@ h1 {
     font-weight: 900;
 }
 .container-fluid-favorite .green-back {
-    background-color: #50b465;
     height: 410px;
     width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
-    mix-blend-mode: multiply;
 }
 .container-pack {
     position: relative;
@@ -530,7 +518,7 @@ h1 {
     height: 400px;
 }
 .day-product {
-    margin-top: 45px;
+    margin-top: 55px;
 }
 .chip-pack {
     margin-top: 135px;
@@ -563,7 +551,6 @@ del {
 .col-pack-4 .btn {
     width: 290px;
     height: 50px;
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -597,7 +584,7 @@ del {
     height: 310px;
 }
 footer {
-    margin-top: 90px;
+    margin-top: 5rem;
 }
 .col-footer {
     border-left: .5px solid hsla(210, 7%, 56%, .7);
@@ -621,7 +608,6 @@ footer {
 }
 .col-footer {
     margin-top: 1rem;
-    padding-left: 29px;
 }
 .phone-number {
     font-weight: 900;
@@ -636,7 +622,6 @@ footer {
 }
 footer .contact {
     font-size: 17px;
-    margin-bottom: 22px;
     color: #3c3c3c;
     font-weight: 800;
     text-transform: uppercase;
@@ -645,9 +630,10 @@ footer p, footer p a {
     font-size: 13px;
     color: #949494;
     margin: 0;
+}
+.col-footer-contact {
     line-height: 40px;
 }
-
 .col-footer-iframe {
     margin-right: 30px;
 }
@@ -676,7 +662,7 @@ iframe {
     display: none;
 }
 i.fa.fa-arrow-up {
-    margin: 0;
+    margin: 0 4px;
     font-size: 130%}
 .carousel-indicators li {
     width: 13px!important;
@@ -742,10 +728,6 @@ i.fa.fa-arrow-up {
         top: 145px;
         left: 130px;
     }
-    /*.book-pict {
-        width: 900px;
-        height: 455px;
-    }*/
     .bean-name {
         position: absolute;
         top: 50px;
@@ -837,12 +819,12 @@ i.fa.fa-arrow-up {
     }
     .row-product .bean-pict {
         width: 200px;
-        height: 160px;
+        height: 150px;
         top: 90px;
         left: 90px;
     }
     .bean-name {
-        right: 100px;
+        right: 80px;
         top: 30px;
     }
     .product-eat-name {
@@ -889,17 +871,12 @@ i.fa.fa-arrow-up {
         padding: 5px;
     }
     .menu-row {
-        height: 100%;
-        padding: 0;
-    }
+        height: 100%}
     .nav-justified .nav-item {
         display: flex;
         justify-content: center;
         align-items: center;
         border: none;
-    }
-    .nav-justified .after :after {
-        display: none;
     }
     h1 {
         font-size: 48px;
@@ -925,7 +902,7 @@ i.fa.fa-arrow-up {
     }
     .cargo-row {
         align-items: flex-start;
-        padding-top: 30px;
+        padding-top: 50px;
     }
     .line {
         height: 110%;
@@ -939,7 +916,7 @@ i.fa.fa-arrow-up {
     .row-product .bean-pict {
         width: 150px;
         height: 120px;
-        top: 70px;
+        top: 80px;
         left: 70px;
     }
     .bean-name {
@@ -947,12 +924,11 @@ i.fa.fa-arrow-up {
         top: 20px;
     }
     .bean-name .pay {
-        padding: 0;
-        font-size: 20px;
-        margin: 0;
+        padding: 5px;
+        font-size: 25px;
     }
     .product-eat-name {
-        font-size: 28px;
+        font-size: 32px;
     }
     .info {
         display: block;
@@ -969,11 +945,9 @@ i.fa.fa-arrow-up {
     .col-pack-4 .btn {
         width: 250px;
         height: 40px;
-        margin: 0;
     }
     .pay {
-        padding: 10px 0;
-        margin: 0;
+        padding: 10px;
     }
     footer .contact {
         border-bottom: .5px solid hsla(210, 7%, 56%, .7);
@@ -985,7 +959,7 @@ i.fa.fa-arrow-up {
         margin-bottom: 20px!important;
     }
     .categories-container {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
     .offer-col img {
         margin-bottom: 20px;
@@ -1002,7 +976,7 @@ i.fa.fa-arrow-up {
     }
     .cargo-row {
         height: 100%;
-        padding-left: 30px;
+        padding-left: 60px;
     }
     .cargo-col img {
         width: 80px;
@@ -1015,19 +989,13 @@ i.fa.fa-arrow-up {
         display: none;
     }
     .cargo-row-second {
-        margin-top: 50px;
+        margin-top: 4rem;
     }
     .offer-col {
         border: none!important;
     }
-    .offer-col img {
-        margin: 10px;
-    }
     .col-pack-4 {
         padding: 10px;
-    }
-    .day-product {
-        margin-top: 15px;
     }
     .desktop {
         display: block;
